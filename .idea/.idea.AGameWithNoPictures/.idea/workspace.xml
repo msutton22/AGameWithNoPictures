@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dc5a801-2596-4f19-8188-034db29a0256" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AGameWithNoPictures/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AGameWithNoPictures/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/wallPiece.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/wallPiece.prefab" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,19 +23,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="334" />
+          <entry key="cs" value="2618" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="334" />
+          <entry key="C#" value="2618" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/mainBehavior.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -53,6 +64,46 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="176" column="22" selection-start-line="176" selection-start-column="22" selection-end-line="176" selection-end-column="22" />
+              <folding>
+                <marker date="1568492449587" expanded="true" signature="6:108" ph="..." />
+                <marker date="1568492449587" expanded="true" signature="153:3340" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="681:722" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="752:1049" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="794:1027" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="999:1023" ph="{...}" />
+                <marker date="1568492449587" expanded="false" signature="1082:1277" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="1112:1135" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="1168:1191" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="1221:1244" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="1251:1274" ph="{...}" />
+                <marker date="1568492449587" expanded="false" signature="1301:1835" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="1319:1831" ph="{...}" />
+                <marker date="1568492449587" expanded="false" signature="1868:2148" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="1921:2110" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="2117:2142" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="2164:2226" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="2252:2716" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="2302:2713" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="2339:2379" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="2413:2453" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="2486:2526" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="2560:2600" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="2738:2839" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="2859:3330" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="2898:3325" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="2939:3321" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="3103:3316" ph="{...}" />
+                <marker date="1568492449587" expanded="true" signature="3139:3310" ph="/* Instantiate(wall, new Vector3((minX - (extraWallX * tileSize) / 2) + (x * tileSize), ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -60,11 +111,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/mainBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/mainBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" />
       </list>
     </option>
   </component>
@@ -75,8 +128,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-14" />
-    <option name="y" value="67" />
+    <option name="y" value="120" />
     <option name="width" value="1440" />
     <option name="height" value="765" />
   </component>
@@ -139,12 +191,12 @@
       <option name="presentableId" value="Default" />
       <updated>1568149803298</updated>
       <workItem from="1568149807580" duration="2148000" />
-      <workItem from="1568313582073" duration="1924000" />
+      <workItem from="1568313582073" duration="12848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4072000" />
+    <option name="totallyTimeSpent" value="14996000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -156,10 +208,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-14" y="67" width="1440" height="765" extended-state="0" />
+    <frame x="0" y="120" width="1440" height="765" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -176,7 +228,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="14" side_tool="true" visible="true" weight="0.26597324" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" visible="true" weight="0.26597324" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -216,6 +268,47 @@
             <marker date="1568315993734" expanded="true" signature="470:562" ph="{...}" />
             <marker date="1568315993734" expanded="true" signature="613:713" ph="{...}" />
             <marker date="1568315993734" expanded="true" signature="762:862" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../procgenlessons-master/Assets/Generate.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="176" column="22" selection-start-line="176" selection-start-column="22" selection-end-line="176" selection-end-column="22" />
+          <folding>
+            <marker date="1568492449587" expanded="true" signature="6:108" ph="..." />
+            <marker date="1568492449587" expanded="true" signature="153:3340" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="681:722" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="752:1049" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="794:1027" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="999:1023" ph="{...}" />
+            <marker date="1568492449587" expanded="false" signature="1082:1277" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="1112:1135" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="1168:1191" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="1221:1244" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="1251:1274" ph="{...}" />
+            <marker date="1568492449587" expanded="false" signature="1301:1835" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="1319:1831" ph="{...}" />
+            <marker date="1568492449587" expanded="false" signature="1868:2148" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="1921:2110" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="2117:2142" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="2164:2226" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="2252:2716" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="2302:2713" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="2339:2379" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="2413:2453" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="2486:2526" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="2560:2600" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="2738:2839" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="2859:3330" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="2898:3325" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="2939:3321" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="3103:3316" ph="{...}" />
+            <marker date="1568492449587" expanded="true" signature="3139:3310" ph="/* Instantiate(wall, new Vector3((minX - (extraWallX * tileSize) / 2) + (x * tileSize), ... */" />
           </folding>
         </state>
       </provider>
