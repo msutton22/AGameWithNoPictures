@@ -6,7 +6,7 @@ using UnityEngine.Animations;
 public class LevelGenerator : MonoBehaviour
 {
 	public GameObject player;
-	//public GameObject end;
+	public GameObject end;
 	
 	public GameObject[] tiles;
 	public GameObject wall;
@@ -161,6 +161,7 @@ public class LevelGenerator : MonoBehaviour
 	void SpawnObjects()
 	{
 		Instantiate(player, createdTiles[Random.Range(0, createdTiles.Count)], Quaternion.identity);
+		Instantiate(end, createdTiles[Random.Range(0, createdTiles.Count)], Quaternion.identity);
 	}
 
 	void CreateWall()
@@ -169,18 +170,13 @@ public class LevelGenerator : MonoBehaviour
 		{
 			for (int y = 0; y < yAmount; y++)
 			{
-				if (createdTiles.Contains(new Vector3((minX - (extraWallX * tileSize) / 2) + (x * tileSize),
+				if (!createdTiles.Contains(new Vector3((minX - (extraWallX * tileSize) / 2) + (x * tileSize),
 					(minY - (extraWallY * tileSize) / 2) + (y * tileSize))))
-				{
-					Debug.Log("hola");
-					//Instantiate(wall, new Vector3((minX - (extraWallX * tileSize) / 2) + (x * tileSize),
-					//	(minY - (extraWallY * tileSize) / 2) + (y * tileSize)), transform.rotation);
-				}
-				else
 				{
 					Instantiate(wall, new Vector3((minX - (extraWallX * tileSize) / 2) + (x * tileSize),
 						(minY - (extraWallY * tileSize) / 2) + (y * tileSize)), transform.rotation);
 				}
+			
 			}
 		}
 	
