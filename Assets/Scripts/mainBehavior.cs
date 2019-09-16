@@ -36,7 +36,7 @@ public class mainBehavior : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals ("key")) 
         {
-            SceneManager.LoadScene (1);
+            SceneManager.LoadScene (2);
         }
         
     }

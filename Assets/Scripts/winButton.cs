@@ -18,6 +18,6 @@ public class winButton : MonoBehaviour
     }
     
     public void PlayGame() {
-        SceneManager.LoadScene (0); //if the button is pressed, go to the game
+        SceneManager.LoadScene (1); //if the button is pressed, go to the game
     }
 }

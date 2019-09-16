@@ -22,7 +22,7 @@ public class gameBehavior : MonoBehaviour
 
         if (timer <= 0)
         {
-            SceneManager.LoadScene (2);
+            SceneManager.LoadScene (3);
         }
     }
 }
