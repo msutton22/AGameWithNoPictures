@@ -102,6 +102,10 @@ MonoBehaviour:
   sound2: {fileID: 2585871710248695354}
   sound3: {fileID: 6501876359184724656}
   sound4: {fileID: 40675690141253085}
+  popup1: {fileID: 3266341262982091853, guid: cc7ea5f3ccf6840198cf0896299a828b, type: 3}
+  popup2: {fileID: 2644189811656246944, guid: 21c31fcd28d9e4326b606c37e2d1c193, type: 3}
+  popup3: {fileID: 2169318074768851472, guid: 0db08738228af464b93cebd424e6a0f9, type: 3}
+  popup4: {fileID: 1152323997104656348, guid: e62dcba597c4442159c5e271320986f5, type: 3}
 --- !u!50 &3765332823624504559
 Rigidbody2D:
   serializedVersion: 4
