@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/aGameWithNoPictures.unity
     guid: 91a5a3a8325c542ef8b449160f7c0b6e
+  - enabled: 1
+    path: Assets/Scenes/winScene.unity
+    guid: 20479f4d54abd4187a73eb3bc581d292
+  - enabled: 1
+    path: Assets/Scenes/endScene.unity
+    guid: e2663aa672e3340099f26c9444b86a5b
   m_configObjects: {}
