@@ -11,7 +11,7 @@ public class mainBehavior : MonoBehaviour
     public AudioSource sound3;
     public AudioSource sound4;
 
-    public float timer = 2f;
+    public float timer = 1.5f;
     private GameObject popup;
     
     public GameObject popup1;
@@ -96,9 +96,12 @@ public class mainBehavior : MonoBehaviour
         }
         if (collision.gameObject.tag.Equals("wall"))
         {
-            timer = 2f;
+            timer = 1.5f;
             ChooseMusic();
-            ChoosePopup();
+            if ((text == null || !text.activeSelf) && (text2 == null || !text2.activeSelf) && (text3 == null || !text3.activeSelf) && (text4 == null || !text4.activeSelf))
+            {
+                ChoosePopup();
+            }
         }
 
     }
