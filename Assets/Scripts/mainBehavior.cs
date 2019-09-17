@@ -30,6 +30,7 @@ public class mainBehavior : MonoBehaviour
     public AudioSource oof;
     
     public AudioSource yas;
+    private bool yes = false;
 
     // Start is called before the first frame update
     void Start()
@@ -72,6 +73,11 @@ public class mainBehavior : MonoBehaviour
                 text4.SetActive(false);
             }
         }
+
+        if (yes == true && yas.isPlaying == false)
+        {
+            SceneManager.LoadScene(2);
+        }
         
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
@@ -99,8 +105,8 @@ public class mainBehavior : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("key"))
         {
-            SceneManager.LoadScene(2);
             yas.Play();
+            yes = true;
         }
         if (collision.gameObject.tag.Equals("wall"))
         {
