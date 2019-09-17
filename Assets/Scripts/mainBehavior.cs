@@ -11,7 +11,7 @@ public class mainBehavior : MonoBehaviour
     public AudioSource sound3;
     public AudioSource sound4;
 
-    public float timer = 1.5f;
+    public float timer = 1f;
     private GameObject popup;
     
     public GameObject popup1;
@@ -28,6 +28,8 @@ public class mainBehavior : MonoBehaviour
     public AudioSource boink;
     public AudioSource yeek;
     public AudioSource oof;
+    
+    public AudioSource yas;
 
     // Start is called before the first frame update
     void Start()
@@ -98,10 +100,11 @@ public class mainBehavior : MonoBehaviour
         if (collision.gameObject.tag.Equals("key"))
         {
             SceneManager.LoadScene(2);
+            yas.Play();
         }
         if (collision.gameObject.tag.Equals("wall"))
         {
-            timer = 1.5f;
+            timer = 1f;
             ChooseMusic();
             if ((text == null || !text.activeSelf) && (text2 == null || !text2.activeSelf) && (text3 == null || !text3.activeSelf) && (text4 == null || !text4.activeSelf))
             {
