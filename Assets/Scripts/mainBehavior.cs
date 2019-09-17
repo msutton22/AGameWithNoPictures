@@ -23,6 +23,11 @@ public class mainBehavior : MonoBehaviour
     private GameObject text2;
     private GameObject text3;
     private GameObject text4;
+    
+    public AudioSource bonk;
+    public AudioSource boink;
+    public AudioSource yeek;
+    public AudioSource oof;
 
     // Start is called before the first frame update
     void Start()
@@ -138,18 +143,22 @@ public class mainBehavior : MonoBehaviour
             case 0:
                 text = Instantiate(popup1, new Vector3(300,200,0), Quaternion.identity);
                 text.transform.SetParent(canvas.transform);
+                yeek.Play();
                 break;
             case 1:
                 text2 = Instantiate(popup2, new Vector3(900,200,0), Quaternion.identity);
                 text2.transform.SetParent(canvas.transform);
+                boink.Play();
                 break;
             case 2:
-                text3 = Instantiate(popup3, new Vector3(200,600,0), Quaternion.identity);
+                text3 = Instantiate(popup3, new Vector3(200,550,0), Quaternion.identity);
                 text3.transform.SetParent(canvas.transform);
+                bonk.Play();
                 break;
             case 3:
                 text4 = Instantiate(popup4, new Vector3(700,600,0), Quaternion.identity);
                 text4.transform.SetParent(canvas.transform);
+                oof.Play();
                 break;
         }
 

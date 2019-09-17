@@ -213,7 +213,7 @@ MonoBehaviour:
   - {fileID: 9173911200899002617, guid: 90af83ce64cc04e71b7b5533231a11d8, type: 3}
   wall: {fileID: 4640951498162664605, guid: e19e028b9b0d94ca39ff7ef695d7aba7, type: 3}
   createdTiles: []
-  tileAmount: 30
+  tileAmount: 15
   tileSize: 1.25
   chanceLeft: 0.25
   chanceRight: 0.5
@@ -787,7 +787,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -162.9, y: 168}
+  m_AnchoredPosition: {x: -233, y: 225}
   m_SizeDelta: {x: 425.9, y: 80.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &914852027
