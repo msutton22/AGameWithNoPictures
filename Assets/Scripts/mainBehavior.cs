@@ -11,7 +11,7 @@ public class mainBehavior : MonoBehaviour
     public AudioSource sound3;
     public AudioSource sound4;
 
-    public float timer = 1f;
+    public float timer = 1.5f;
     private GameObject popup;
     
     public GameObject popup1;
@@ -110,7 +110,7 @@ public class mainBehavior : MonoBehaviour
         }
         if (collision.gameObject.tag.Equals("wall"))
         {
-            timer = 1f;
+            timer = 1.5f;
             ChooseMusic();
             if ((text == null || !text.activeSelf) && (text2 == null || !text2.activeSelf) && (text3 == null || !text3.activeSelf) && (text4 == null || !text4.activeSelf))
             {
@@ -160,7 +160,7 @@ public class mainBehavior : MonoBehaviour
                 boink.Play();
                 break;
             case 2:
-                text3 = Instantiate(popup3, new Vector3(200,550,0), Quaternion.identity);
+                text3 = Instantiate(popup3, new Vector3(200,520,0), Quaternion.identity);
                 text3.transform.SetParent(canvas.transform);
                 bonk.Play();
                 break;
